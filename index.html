@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h2>todo list</h2>
+    <div id="container">
+  
+      <input type="text" id="title" placeholder="enter task" />
+      <div>
+        <input type="checkbox" id="status1" />
+        <label>true</label>
+
+        <input type="checkbox" id="status2" />
+        <label>false</label>
+      </div>
+      <button id = "add">Add</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id = "tbody"></tbody>
+    </table>
+  </body>
+  <script src="index.js"></script>
+</html>

@@ -1,0 +1,51 @@
+body{
+  background:#f5f5f5;
+}
+#container {
+  width: 300px;
+  border: 1px solid #cecece;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10px;
+  height: 100px;
+  margin-bottom: 30px;
+  border-radius:6px;
+}
+h2{
+  text-align:center;
+  color:orangered;
+  font-size:1.6rem;
+}
+#container input {
+  margin-bottom: 15px;
+  outline: none;
+  border-radius: 4px;
+  padding:0.5rem;
+  border: 1px solid #cecece;
+}
+table{
+  margin: auto;
+  width:350px;
+  border-radius: 6px;
+}
+table,td,th {
+  
+  border: 1px solid #cecece;
+}
+td{
+  padding:15px;
+}
+th{
+  color:orangered;
+  font-size:1.2rem;
+}
+
+#add{
+  background:orangered;
+  border-radius:8px;
+  border:none;
+  cursor:pointer;
+  padding:0.5rem;
+}
